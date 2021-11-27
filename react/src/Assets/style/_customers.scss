@@ -1,0 +1,121 @@
+body {
+    background-color: $bgcolor !important;
+    font-family: "Open Sans";
+    overflow-x: hidden;
+}
+.all-wrapper {
+    padding: 10px 24px 0px 24px;
+}
+.table-responsive {
+    overflow-x: hidden !important;
+}
+.screen-content {
+    position: relative;
+    margin: 0px;
+    margin-top: 20px;
+    max-width: 1156px;
+    text-align: left;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0eeee;
+}
+.top-content {
+    padding: 10px;
+    border-bottom: dashed 1px rgb(215, 215, 215);
+    text-align: center;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-button {
+    // line-height: 32px;
+    // padding: 3px 13px;
+    // font-size: 20px;
+    // background: #6f402f;
+    // margin-top: 12px;
+    // margin-bottom: 12px;
+    // margin-left: 6px;
+    // margin-right: 6px;
+    // color: white;
+    // border-radius: 3px;
+    // border: solid 1px rgb(209, 209, 209);
+    // cursor: pointer;
+    // transition: all 150ms linear;
+    margin: 0 0 0 0;
+    border-radius: 6px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    background-color: #704232;
+    width: fit-content;
+}
+
+.header-row {
+    background: #6f402f !important;
+}
+.content-center {
+    flex-grow: 1;
+}
+.search1 {
+    padding: 3px 13px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+input[type="search"] {
+    width: 188px;
+    border: 1px solid #cecbcb;
+    padding: 10px 20px;
+    padding-left: 38px;
+    padding-right: 33px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Lato", "Lucida Grande", Helvetica, Verdana, Arial;
+    font-size: 13px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: plum;
+}
+input[type="search"]:focus {
+    border: 1px solid plum;
+}
+
+.full-content {
+    overflow: auto;
+}
+.subwindow-container {
+    display: block;
+    height: 100%;
+}
+.subwindow-hidden {
+    height: 100%;
+    position: relative;
+}
+.client-list {
+    font-size: 16px;
+    width: 100%;
+    border-spacing: 0;
+}
+.tr {
+    background: white;
+}
+.td {
+    padding: 12px 8px;
+}
+.td1 {
+    padding: 12px 8px;
+    width: 130px;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.5rem 0.5rem !important;
+    background-color: var(--bs-table-bg);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.bg-paginator {
+    background-color: white;
+}

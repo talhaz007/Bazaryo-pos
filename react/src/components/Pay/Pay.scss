@@ -1,0 +1,242 @@
+.pos-content {
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    bottom: 0;
+    background: #f0eeee;
+}
+.window {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    border: none;
+    overflow: hidden;
+}
+.window .subwindow {
+    display: table-row;
+    width: 100%;
+    height: 100%;
+}
+.subwindow .subwindow-container {
+    display: table-cell;
+    position: relative;
+}
+.subwindow .subwindow-container-fix {
+    height: 100%;
+    position: relative;
+}
+.screen {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.screen .screen-content {
+    position: relative;
+    margin: 0px auto;
+    max-width: 1024px;
+    text-align: left;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.screen .top-content {
+    height: 64px;
+    border-bottom: dashed 1px rgb(215, 215, 215);
+    text-align: center;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.screen .top-content .button {
+    line-height: 32px;
+    padding: 3px 13px;
+    font-size: 20px;
+    background: rgb(230, 230, 230);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 3px;
+    border: solid 1px rgb(209, 209, 209);
+    cursor: pointer;
+    transition: all 150ms linear;
+}
+.top-content .top-content-center {
+    flex-grow: 1;
+}
+.screen .top-content .button.highlight {
+    background: rgb(110, 200, 155);
+    color: white;
+    border: solid 1px rgb(110, 200, 155);
+}
+.button.highlight {
+    background: #6ec89b !important;
+    border: solid 1px #64af8a !important;
+    color: white !important;
+}
+.screen .top-content .button {
+    line-height: 32px;
+    padding: 3px 13px;
+    font-size: 20px;
+    background: rgb(230, 230, 230);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 3px;
+    border: solid 1px rgb(209, 209, 209);
+    cursor: pointer;
+    transition: all 150ms linear;
+}
+.screen .main-content {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+.screen .left-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: dashed 1px rgb(215, 215, 215);
+    flex-grow: 1;
+    min-width: 200px;
+}
+.paymentlines {
+    border-spacing: 0px 10px;
+    border-collapse: inherit;
+    margin: 16px;
+}
+.paymentlines .paymentline:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.paymentlines .paymentline:first-child {
+    border-top-width: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.paymentline.selected {
+    background: white;
+}
+.screen .right-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.payment-status-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.payment-status-container .label {
+    margin-right: 60px;
+    padding-right: 7px;
+}
+.payment-status-container .total {
+    margin-right: 60px;
+    padding-right: 7px;
+    display: contents;
+}
+.payment-status-total-due {
+    font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #5c5c5cd1;
+}
+.payment-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.payment-numpads {
+    box-sizing: border-box;
+    margin: 16px;
+    text-align: center;
+    flex-grow: 1;
+}
+.payment-numpads .numpads {
+    border-radius: 4px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-color: #cacaca;
+    width: 296px;
+    height: 100%;
+    margin: auto;
+}
+.input-buttons {
+    font-size: 24px;
+}
+.payment-numpads .numpads button:first-child {
+    border-top-left-radius: 4px;
+}
+.payment-numpads .numpads button {
+    width: 74px;
+    height: 74px;
+}
+
+.numpads button {
+    float: left;
+    height: 54px;
+    width: 54px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #555555;
+    border-radius: 0;
+    border: none;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #bfbfbf;
+    transition: all 150ms linear;
+}
+.numpads button:nth-child(4) {
+    border-top-right-radius: 4px;
+    width: 73px;
+}
+.numpads button:nth-child(8) {
+    border-top-right-radius: 4px;
+    width: 73px;
+}
+.numpads button:nth-child(12) {
+    border-top-right-radius: 4px;
+    width: 73px;
+}
+.numpads button:nth-child(16) {
+    border-top-right-radius: 4px;
+    width: 73px;
+}
+.payment-screen .customer-button {
+    margin-bottom: 10px;
+    width: 200px;
+}
+.payment-screen .payment-button .button:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.payment-screen .payment-button .button:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-width: 1px;
+}
+.payment-screen .payment-buttons .button {
+    background: #e2e2e2;
+    line-height: 73px;
+    font-size: 16px;
+    padding: 0px 8px;
+    border: solid 1px rgb(200, 200, 200);
+    border-top-width: 0;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    transition: background-color, border-color, color 150ms linear;
+}

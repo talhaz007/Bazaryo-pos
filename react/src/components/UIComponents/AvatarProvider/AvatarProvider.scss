@@ -1,0 +1,26 @@
+$background-bar-color: #ec5252;
+$font-bar-color: #fff;
+.provider-avatar-wrapper {
+    position: relative;
+    width: 128px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .provider-bar {
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 24px;
+        background: $background-bar-color;
+        border-radius: 4px;
+        width: 92px;
+        color: $font-bar-color;
+        bottom: 0;
+        display: none;
+        span {
+            width: 100%;
+        }
+    }
+}

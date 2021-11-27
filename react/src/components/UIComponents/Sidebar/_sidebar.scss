@@ -1,0 +1,35 @@
+@import "../../../Assets/style/fonts";
+.sidebar-wrapper {
+    height: fit-content;
+    width: -webkit-fill-available;
+    cursor: pointer;
+
+    .image-wrap {
+        display: flex;
+
+        .button-wrapper {
+            flex-direction: column;
+            margin-left: 20px;
+
+            .title-style {
+                font-size: 18px;
+                padding: 0px 0 10px 0;
+                font-weight: bold;
+            }
+            .price-style {
+                font-size: large;
+                // font-weight: bold;
+                span {
+                    float: right;
+                    font-weight: bold;
+                }
+            }
+        }
+        .img-style {
+            height: 70px;
+            width: 70px;
+            border-radius: 17px;
+            margin: 0 0 20px 0;
+        }
+    }
+}

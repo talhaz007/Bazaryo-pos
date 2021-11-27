@@ -1,0 +1,85 @@
+.paginator-wrapper {
+    max-width: 500px;
+    .pagination {
+        display: flex;
+        padding: 0;
+        margin: 21px 0;
+        list-style: none;
+        outline: none;
+        align-items: center;
+
+        .page {
+            border-radius: 4px;
+            a {
+                padding: 4px 11px;
+                text-decoration: none;
+                line-height: 24px;
+                color: #6f402f;
+                &:focus {
+                    outline: none;
+                }
+            }
+            &:active {
+                background: #6f402f;
+                a {
+                    color: #fff;
+                    line-height: 24px;
+                }
+            }
+            &.active-page {
+                background: #6f402f;
+                a {
+                    color: #fff;
+                    line-height: 24px;
+                }
+            }
+        }
+        .break {
+            a {
+                padding: 4px 11px;
+                padding: 4px 11px;
+                text-decoration: none;
+                line-height: 24px;
+                color: #6f402f;
+            }
+        }
+        .controller-page {
+            display: flex;
+            a {
+                .page-button-controller {
+                    background-image: url("../../../Assets/img/slider-controller-active.svg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 7.41px;
+                    height: 12px;
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+            &:active {
+                a {
+                    .page-button-controller {
+                        background-image: url("../../../Assets/img/slider-controller-active.svg");
+                    }
+                }
+            }
+        }
+        .next-page {
+            margin-left: 37px;
+        }
+        .prev-page {
+            margin-right: 37px;
+            .page-button-controller {
+                transform: rotate(-180deg);
+            }
+        }
+        a {
+            padding: 4px 11px;
+            text-decoration: none;
+            line-height: 24px;
+            color: #8b90a0;
+        }
+    }
+}

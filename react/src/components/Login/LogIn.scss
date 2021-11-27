@@ -1,0 +1,304 @@
+.logo {
+    max-height: 120px;
+    max-width: 100%;
+    width: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.bg-style {
+    background-image: url("../../Assets/img/2037852.jpg");
+    // background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.login-page {
+    width: 300px;
+}
+.reg-page {
+    width: auto;
+    margin: 80px auto;
+}
+.hr-style {
+    border: 1px solid #dee2e6;
+    margin-top: 15px;
+}
+.martop {
+    margin-top: 45px;
+}
+.martopp {
+    margin-top: 25px;
+}
+.mtop {
+    margin-top: 10px;
+}
+
+.form-heading {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-bottom: 2px solid #dee2e645;
+    margin-bottom: 10px;
+    h3 {
+        font-size: 39px;
+        color: black;
+        font-weight: bold;
+    }
+}
+.regText {
+    font-size: 39px;
+    color: whitesmoke !important;
+    font-weight: bold;
+}
+.margint {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.marginl {
+    margin-left: 58px;
+}
+.marginlr {
+    margin-left: 75px;
+}
+.message-wrapper {
+    margin-top: 8px;
+    text-align: center;
+}
+.form-label {
+    font-size: 14px;
+    width: inherit;
+    color: #333;
+    line-height: 1.5;
+    padding-left: 7px;
+    margin: 0px;
+}
+.regform {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    background: #aa74527a;
+    max-width: 700px;
+    padding: 5px 20px 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    background: #ffffff;
+    max-width: 360px;
+    padding: 13px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 31%;
+}
+.d-flex {
+    align-items: center;
+
+    .p-Code {
+        margin-right: 20px;
+        width: 115px;
+    }
+}
+.inputflex-wrapper {
+    margin-right: 20px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.flex-wraper {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.mr {
+    display: flex;
+    align-items: center;
+
+    .mright {
+        margin-right: 26px;
+    }
+    .mrright {
+        margin-right: 54px;
+    }
+}
+.regform input {
+    outline: 0;
+    margin: 0 0 5px;
+    box-sizing: border-box;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: transparent !important;
+    background-clip: padding-box;
+    border: 0px;
+    border-bottom: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+::placeholder .regform input {
+    color: whitesmoke;
+}
+
+.form input {
+    outline: 0;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: transparent !important;
+    background-clip: padding-box;
+    border: 0px;
+    border-bottom: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.regform button {
+    width: 100%;
+    outline: 0;
+    background: linear-gradient(to right, #704232, #c47155, rgb(216, 126, 73));
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    border: linear-gradient(to left, #704232, #c47155, rgb(216, 126, 73));
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.form button {
+    width: 100%;
+    outline: 0;
+    background: linear-gradient(to right, #704232, #c47155, rgb(216, 126, 73));
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    .spinner-border {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: -0.125em;
+        border: 0.25em solid currentColor;
+        border-right-color: transparent;
+        border-radius: 50%;
+        animation: 0.75s linear infinite spinner-border;
+    }
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: linear-gradient(to left, #704232, #c47155, rgb(216, 126, 73));
+    box-shadow: 0 5px 30px 0 rgba(3, 216, 222, 0.2);
+}
+.regform button:hover,
+.regform button:active,
+.regform button:focus {
+    background: linear-gradient(to left, #704232, #c47155, rgb(216, 126, 73));
+    box-shadow: 0 5px 30px 0 rgba(3, 216, 222, 0.2);
+}
+.form a:hover {
+    text-decoration: underline;
+}
+.form .message {
+    font-size: 12px;
+    color: #704232;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.form .message a {
+    color: #704232;
+    text-decoration: none;
+    background-color: transparent;
+}
+.regform a:hover {
+    text-decoration: underline;
+}
+.regform .message {
+    font-size: 12px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.regform .message a {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+}
+.form .message a:hover {
+    color: #704232;
+    text-decoration: underline;
+}
+.regform .message a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.container .info span .fa {
+    color: #ef3b3a;
+}
+body .login-page {
+    font-family: "Open Sans";
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto;
+}

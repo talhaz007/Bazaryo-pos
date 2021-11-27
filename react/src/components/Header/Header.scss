@@ -1,0 +1,163 @@
+.pos {
+  direction: ltr;
+  padding: 0;
+  margin: 0;
+  background-color: #f0eeee;
+  font-family: "Lato", "Lucida Grande", Helvetica, Verdana, Arial;
+  color: #555555;
+  font-size: 12px;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-shadow: none;
+  overflow: hidden;
+}
+.pos .pos-branding {
+  min-width: 503px;
+  max-width: 503px;
+  flex-grow: 1;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  line-height: 100%;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+.pos-topheader {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  color: gray;
+  background: #875a7b;
+  display: flex;
+}
+
+.pos .pos-logo {
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+.pos .ticket-button {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  font-size: medium;
+  color: white;
+}
+.ticket-button .with-badge {
+  margin-right: 0.7em;
+  font-size: medium;
+  display: contents;
+}
+[badge] {
+  position: relative;
+}
+.fa1 {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: rotate(144deg);
+  margin-right: 8px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.pos .pos-rightheader {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.pos .pos-rightheader > * {
+  border-right: 1px solid #875a7b;
+}
+.search-bar-portal .search-box {
+  font-size: medium;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+.search-bar-portal .search-box .icon {
+  position: absolute;
+  left: 0;
+  margin-left: 12px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.search-bar-portal .search-box .clear-icon {
+  position: absolute;
+  right: 0;
+  margin-right: 12px;
+  z-index: 1;
+  color: #4f5b66;
+  cursor: pointer;
+}
+.search-bar-portal .search-box input[type="search"] {
+  font-size: medium;
+  height: 35px;
+  border: none;
+  color: #63717f;
+  padding-left: 38px;
+  padding-right: 38px;
+  width: 250px;
+  border-radius: 5px;
+}
+input[type="search"]:focus {
+  border: 1px solid plum;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+}
+.pos .status-buttons-portal {
+  flex: 1;
+}
+.pos .status-buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.pos .oe_status {
+  float: right;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 14px;
+  line-height: 20px;
+  font-size: 20px;
+  vertical-align: middle;
+  font-style: italic;
+  cursor: pointer;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+  color: rgb(18, 165, 18);
+}
+.pos .pos-rightheader .header-button:last-child {
+  border-left: 1px solid #875a7b;
+  display: flex;
+  margin-right: 16px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}

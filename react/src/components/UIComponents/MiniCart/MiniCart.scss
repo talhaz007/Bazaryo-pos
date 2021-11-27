@@ -1,0 +1,34 @@
+.minicart-wrapper {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    background: url("../../../Assets/img/basket.svg") no-repeat center;
+    .counter-wrapper {
+        width: 16px;
+        height: 16px;
+        display: block;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+        top: -8px;
+        right: -7px;
+        background-color: #000000;
+        border-radius: 8px;
+    }
+    &:hover {
+        background: url("../../../Assets/img/basket-hover.svg") no-repeat center;
+    }
+    &:active {
+        background: url("../../../Assets/img/basket-active.svg") no-repeat
+            center;
+    }
+    &:disabled {
+        background: url("../../../Assets/img/basket-disabled.svg") no-repeat
+            center;
+    }
+}

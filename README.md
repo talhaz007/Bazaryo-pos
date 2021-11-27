@@ -1,0 +1,1 @@
+# bazaryo-pos

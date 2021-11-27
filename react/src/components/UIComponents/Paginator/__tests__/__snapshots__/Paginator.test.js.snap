@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paginator should be rendered 1`] = `
+<div
+  className="paginator-wrapper "
+>
+  <o
+    activeClassName="active-page"
+    breakLabel="..."
+    containerClassName="pagination"
+    disableInitialCallback={false}
+    disabledClassName="disabled"
+    eventListener="onClick"
+    marginPagesDisplayed={1}
+    nextAriaLabel="Next page"
+    nextClassName="next-page controller-page"
+    nextLabel={
+      <div
+        className="page-button-controller"
+      />
+    }
+    nextRel="next"
+    pageClassName="page"
+    pageCount={10}
+    pageRangeDisplayed={4}
+    prevRel="prev"
+    previousAriaLabel="Previous page"
+    previousClassName="prev-page controller-page"
+    previousLabel={
+      <div
+        className="page-button-controller"
+      />
+    }
+  />
+</div>
+`;

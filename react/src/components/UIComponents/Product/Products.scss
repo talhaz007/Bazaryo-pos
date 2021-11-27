@@ -1,0 +1,116 @@
+@import "../../../Assets/style/fonts";
+
+.products-wrapper {
+    background-color: white;
+    height: 160px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px 8px 20px 8px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    .products-wrapper:hover {
+        transition: 1s;
+    }
+    .image-wrap {
+        display: flex;
+
+        .button-wrapper {
+            flex-direction: column;
+            margin-left: 10px;
+            width: 75%;
+
+            .title-style {
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .descStyle {
+                font-size: 12px;
+                color: #a3a1a1;
+            }
+        }
+        .image-part {
+            width: 25%;
+        }
+        .img-style {
+            width: 40px;
+            height: 40px;
+            border-radius: 17px;
+            margin: 0 0 10px 0;
+        }
+    }
+    .price-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        sup {
+            top: -6px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        .price-style {
+            font-size: large;
+            font-weight: bold;
+        }
+    }
+
+    button {
+        margin: 20px 0 0 0;
+        border-radius: 6px;
+        width: -webkit-fill-available;
+        width: -moz-available;
+        font-weight: 500;
+        font-size: large;
+        color: white;
+        background-color: #704232;
+    }
+
+    .type {
+        margin: 4px 0 0 12px;
+        border-radius: 26px;
+        width: 37px;
+        height: 37px;
+        color: white;
+        background-color: #d7cbc7;
+        text-align: center;
+        padding: 7px 0 0 0;
+    }
+}
+
+@media (max-width: 460px) {
+    .products-wrapper {
+        .image-wrap .button-wrapper .title-style {
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .price-wrapper .price-style {
+            font-size: medium;
+            font-weight: bold;
+        }
+    }
+}
+@media (max-width: 430px) {
+    .products-wrapper {
+        height: 120px;
+        width: 110px;
+        padding: 10px 8px 10px 8px;
+
+        button {
+            margin: 0 0 0 0;
+            font-size: medium;
+        }
+
+        .image-wrap .image-part {
+            width: 50%;
+        }
+        .image-wrap .button-wrapper .title-style {
+            font-size: 10px;
+            font-weight: 600;
+        }
+        .price-wrapper .price-style {
+            font-size: small;
+            font-weight: 600;
+        }
+    }
+}

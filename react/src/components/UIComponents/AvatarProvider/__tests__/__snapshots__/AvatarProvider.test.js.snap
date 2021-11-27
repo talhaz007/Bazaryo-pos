@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarProvider should be rendered 1`] = `
+<div
+  className="provider-avatar-wrapper "
+>
+  <Avatar
+    className="provider-avatar"
+    size="large"
+  />
+  <div
+    className="provider-bar "
+  >
+    <span>
+      Provider
+    </span>
+  </div>
+</div>
+`;

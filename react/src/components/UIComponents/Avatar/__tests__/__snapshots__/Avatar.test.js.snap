@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should be rendered 1`] = `
+<div
+  className="avatar-wrapper   "
+>
+  <img
+    alt="profile"
+    src="test-file-stub"
+  />
+  <div
+    className="change-photo-wrapper"
+  >
+    <div
+      className="edit-icon"
+    />
+    <div
+      className="edit-text"
+    >
+      Change photo
+    </div>
+  </div>
+</div>
+`;
